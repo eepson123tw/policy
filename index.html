@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50; /* Updated color */
+            color: #ecf0f1; /* Updated color */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #2c3e50; /* Updated color */
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        p, ul {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+
+        .highlight {
+            background-color: #fffacd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .container {
+            position: relative;
+            overflow: hidden;
+        }
+        .wave {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px; 
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%232c3e50' fill-opacity='1' d='M0,192L48,176C96,160,192,128,288,128C384,128,480,160,576,165.3C672,171,768,149,864,128C960,107,1056,85,1152,90.7C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z'%3E%3C/path%3E%3C/svg%3E") repeat-x;
+            animation: wave 8s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+            transform: translate3d(0, 0, 0);
+        }
+        
+        @keyframes wave {
+            0% {
+                margin-left: 0;
+            }
+            100% {
+                margin-left: -1600px;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .wave{
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p>Smart Translator Chrome Extension</p>
+        </header>
+        <div class="wave"></div>
+    </div>
+
+    <main>
+        <p><strong>Last updated: January 12, 2025</strong></p>
+
+        <p>Your privacy matters to us. In this policy, we explain:</p>
+        <ul>
+            <li>What data we collect and why.</li>
+            <li>How we handle your data.</li>
+            <li>Your rights regarding your data.</li>
+        </ul>
+
+        <p>We pledge <span class="highlight">never to sell your data</span>—not now, not ever.</p>
+
+        <p>This policy applies to the Smart Translator Chrome Extension (hereinafter referred to as "the Extension"). This document outlines how we collect, process, and protect information from users of the Extension.</p>
+
+        <h2>What We Collect and Why</h2>
+        <h3>1. Identity & Access</h3>
+        <p>When you configure the Extension, we may collect:</p>
+        <ul>
+            <li>Your email address, if provided for troubleshooting or support purposes.</li>
+            <li>API keys for translation services (e.g., OpenAI API Key), solely to enable the Extension’s functionality. These keys are stored locally on your device and are not transmitted to our servers.</li>
+        </ul>
+
+        <h3>2. Browser Content Access</h3>
+        <p>To perform its primary function of translating text and images, the Extension may:</p>
+        <ul>
+            <li>Access selected text on web pages to provide translations.</li>
+            <li>Capture visible portions of the screen for image-based translations (after explicit user action, such as clicking "Capture and Translate").</li>
+        </ul>
+
+        <h3>3. Notifications</h3>
+        <p>We use browser notifications to:</p>
+        <ul>
+            <li>Alert you about the status of translation tasks (e.g., success or errors).</li>
+            <li>Provide configuration or usage tips.</li>
+        </ul>
+
+        <h3>4. Storage</h3>
+        <p>The Extension uses browser storage to save:</p>
+        <ul>
+            <li>Your API keys and preferred language settings.</li>
+            <li>Recently translated content for convenience.</li>
+        </ul>
+
+        <h2>When We Access or Disclose Your Information</h2>
+        <p>The Extension processes your data locally and does not transmit personal or browsing data to third parties, except:</p>
+        <ul>
+            <li>When you explicitly use a third-party translation API (e.g., OpenAI API), your data is sent directly to the respective service.</li>
+        </ul>
+
+        <p><span class="highlight"><strong>Legal Requirements:</strong></span> We will disclose data only if legally required, such as in response to valid legal processes or subpoenas.</p>
+
+        <h2>Your Rights</h2>
+        <p>As a user, you have the right to:</p>
+        <ul>
+            <li><strong>Access:</strong> View the data stored by the Extension, including settings and recent translations.</li>
+            <li><strong>Correction:</strong> Update or correct API keys and preferences directly within the Extension settings.</li>
+            <li><strong>Deletion:</strong> Remove all stored data by resetting the Extension.</li>
+        </ul>
+
+        <p>We do not store any data on our servers, so there is no centralized repository of your information. Any retained data resides solely on your device.</p>
+
+        <h2>Data Retention</h2>
+        <p>The Extension retains data only as long as necessary to perform its core functions. For example:</p>
+        <ul>
+            <li>API keys and preferences are stored until you manually remove them.</li>
+            <li>Translation tasks use temporary data that is discarded immediately after processing.</li>
+        </ul>
+
+        <h2>Cookies and Tracking</h2>
+        <p>The Extension does not use cookies or tracking technologies to monitor your browsing activity. However, third-party translation services you configure may use their own tracking mechanisms as outlined in their respective privacy policies.</p>
+
+        <h2>Location of Data</h2>
+        <p>All data processed by the Extension remains on your device or is transmitted directly to the translation API you configure. No data is sent to or stored on our servers.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy to reflect new features or regulatory requirements. Significant changes will be communicated via the Extension's update notes.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions, concerns, or feedback about this policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:ninocar215@gmail.com">ninocar215@gmail.com</a></p>
+
+        <p>We are committed to protecting your privacy and ensuring transparency in how we handle your data.</p>
+
+    </main>
+
+    <footer>
+        <p>Adapted from open-source privacy policies under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</p>
+    </footer>
+
+</body>
+</html>
